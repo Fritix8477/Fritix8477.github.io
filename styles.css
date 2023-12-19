@@ -1,0 +1,72 @@
+/* styles.css */
+.centrer{
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 8px 8px 30px 10px grey;
+    padding: 10px;
+}
+.centrer img {
+    width: 100%;
+}
+.button-style {
+    background-color: #00ff48;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-style2 {
+    background-color: #8800ff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.button {
+    background-color: #8800ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.titre {
+    background: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.BoutonWeb {
+    background: rgba(255, 255, 255, 0.60);
+    padding: 10px;
+    color: black;
+    font-family: fantasy;
+}
+.bouton-text {
+    background-color: #ff7300;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-style3 {
+    background-color: #ff00c3; 
+    color: #ffffff; 
+    padding: 20px 30px; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    align-items: center;
+    font-family: fantasy;
+}
+.centrer button {
+    width: 100%;
+}

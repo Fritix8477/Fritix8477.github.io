@@ -1,0 +1,32 @@
+.titre {
+    background: rgba(255, 255, 255, 0.80);
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-family: fantasy;
+}
+.BoutonWeb {
+    background: rgba(255, 255, 255, 0.60);
+    padding: 10px;
+    color: black;
+    font-family: FreeMono, monospace;
+}
+.centrer{
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 8px 8px 23px 10px grey;
+    padding: 10px;
+}
+.centrer img {
+    width: 100%;
+}
+.button-style2 {
+    background-color: #8800ff; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
