@@ -1,10 +1,16 @@
 /* styles.css */
 .centrer {
-    max-width: 600px;
+    /* max-width: 800px;
     width: 80%;
     margin: 0 auto;
     border: 1px solid black;
     box-shadow: 20px 15px 100px 40px grey;
+    padding: 10px; */
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 20px 15px 200px 40px grey;
     padding: 10px;
 }
 
@@ -93,4 +99,56 @@
 
 .centrer2 img {
     width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.element {
+    margin: auto;
+    text-align: center;
+}
+
+.element > img {
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.element1 {
+    background-color: #000000;
+    color: #fbfbfb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: 600
+}
+nav {
+    color: #fff;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 10px 0;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav li:first-of-type {
+    margin-left: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
 }

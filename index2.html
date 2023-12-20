@@ -20,18 +20,18 @@
             margin: 20px;
         }
 
-        nav {
+        /* nav { 
             color: #fff;
             background-color: black;
-        }
+         } */
 
-        ul {
+        /* ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
-        }
+        } */
 
-        li {
+        /* li {
             margin: 10px 0;
             display: inline-block;
             margin-right: 30px;
@@ -45,7 +45,7 @@
             text-decoration: none;
             color: #fff;
             font-size: 18px;
-        }
+        } */
     </style>
 
     <link rel="stylesheet" href="styles.css">
@@ -61,15 +61,32 @@
         <h1 class="animate__animated animate__bounce titre">Bienvenue Sur Mon Site Web</h1>
     </header>
 
-    <nav>
+    <nav class="animate__animated animate__bounce">
         <ul>
-            <li><a href="index2.html">Accueil</a></li>
-            <li><a href="details_3.html">Rapport De Stage</a></li>
-            <li><a href="https://cross-systems.ch/">Cross Systems</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index2.html" target="_self">Accueil</a></li>
+            <li><a href="details_3.html" target="_self">Rapport De Stage</a></li>
+            <li><a href="https://cross-systems.ch/" target="_blank">Cross Systems</a></li>
+            <li><a href="details.html" target="_self">À propos</a></li>
+            <li><a href="details_4.html" target="_self">Contact</a></li>
         </ul>
     </nav>
+
+    <h2></h2>
+
+    <div class="animate__animated animate__bounce">
+    <div class="container">
+        <div class="element">
+            <img src="img/CrossLogoRond.png" alt="Description">
+            <a class="element1" href="https://cross-systems.ch/" target="_blank" title="➡️ Cross Systems">➡️ Cross
+                Systems</a>
+        </div>
+        <div class="element">
+            <img src="img/AirCaraibe.png" alt="Description">
+            <a class="element1" href="AirCaraibe/AirCaraibeExample.html" target="_self" title="➡️ AirCaraibe">➡️ AirCaraibe</a></div>
+        
+            <div class="element"> <img src="img/dev.png" alt="Description"> 
+                <a class="element1" href="details_2.html" target="_self" title="➡️ Développeur">➡️ Développeur</a></div>
+    </div>
 
     <main>
 
@@ -126,7 +143,7 @@
         <p>Ce site a été créé par Nathan</p>
         <p>Apprenti Développeur</p>
 
-        <img src="img/example.png" alt="Description" onclick="test()">
+        <img src="img/example.png" alt="Description">
 
     </footer>
 
