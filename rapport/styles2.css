@@ -12,11 +12,11 @@
     font-family: FreeMono, monospace;
 }
 .centrer{
-    max-width: 400px;
+    max-width: 600px;
     width: 80%;
     margin: 0 auto;
     border: 1px solid black;
-    box-shadow: 8px 8px 23px 10px grey;
+    box-shadow: 20px 15px 100px 40px grey;
     padding: 10px;
 }
 .centrer img {

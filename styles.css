@@ -1,10 +1,10 @@
 /* styles.css */
 .centrer{
-    max-width: 400px;
+    max-width: 600px;
     width: 80%;
     margin: 0 auto;
     border: 1px solid black;
-    box-shadow: 8px 8px 30px 10px grey;
+    box-shadow: 20px 15px 100px 40px grey;
     padding: 10px;
 }
 .centrer img {
@@ -34,6 +34,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-weight: 600
 }
 .titre {
     background: rgba(255, 255, 255, 0.80);
@@ -44,10 +46,11 @@
     border-radius: 10px;
 }
 .BoutonWeb {
-    background: rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.70);
     padding: 10px;
     color: black;
-    font-family: fantasy;
+    font-family: Arial, sans-serif;
+    font-weight: 600
 }
 .bouton-text {
     background-color: #ff7300;
@@ -68,5 +71,16 @@
     font-family: fantasy;
 }
 .centrer button {
+    width: 100%;
+}
+.centrer2 {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 20px 15px 200px 40px grey;
+    padding: 10px;
+}
+.centrer2 img {
     width: 100%;
 }
