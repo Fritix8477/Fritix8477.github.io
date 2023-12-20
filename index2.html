@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rapport De Stage Nathan</title>
+    <title>Stage De Nathan</title>
 
     <style>
         body {
@@ -14,13 +14,51 @@
             color: #ffffff;
             margin: 20px;
         }
+        nav {
+            color: #fff;
+            background-color: black;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            display: inline-block;
+            margin-right: 40px;
+        }
+
+        li:first-of-type{
+            margin-left: 90px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
     </style>
     
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 </head>
-<body class="centrer2">
+<body class="centrer2" style="display: none;">
+
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Stage</a></li>
+            <li><a href="#">Cross Systems</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
 
     <h1 class="animate__animated animate__bounce titre">Bienvenue Sur Mon Site Web</h1>
 
@@ -62,10 +100,16 @@
         <button class="animate__animated animate__bounce button">Clique Ici Pour En Savoir Plus Sur AIR CARAÏBES ➡️</button> 
     </a> 
 
+    <h2 class="animate__animated animate__bounce BoutonWeb">test JS 🖥️</h2>
+
+    <a href="test_js/details_4.html" target="_self"> 
+        <button class="animate__animated animate__bounce button">Test JS ➡️</button> 
+    </a> 
+
     <p>Ce site a été créé par Nathan</p>
     <p>Apprenti Développeur</p>
 
-    <img src="img/example.png" alt="Description">
+    <img src="img/example.png" alt="Description" onclick="test()">
 
     <script src="app.js"></script>
 </body>
