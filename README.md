@@ -1,7 +1,7 @@
-## Create by Fritix
+# Create by Fritix
 
 
-### depencies :
+# depencies :
 - GIT
 - NODE JS
 - VISUAL STUDIO CODE
@@ -16,9 +16,13 @@
 - git push
 
 
-# Pour une maintenance suprimer les ligne 33 a 35 dans le index.html et mettre se code dans index.html a la ligne 32 
+## Pour mettre de site en maintenance suprimer les ligne 33 a 35 dans le index.html et mettre se code dans index.html a la ligne 32 
     
     
     <a href="maintenance/maintenance.html" target="_self">
         <button id="start" class="button-style3">Clique ici pour aller à l'accueil</button>
     </a> 
+
+## GIT pour heberger 
+
+git clone https://github.com/Fritix8477/Fritix8477.github.io.git
