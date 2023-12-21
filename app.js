@@ -1,15 +1,15 @@
 // app.js
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Code JavaScript ici
     console.log('La page est chargée !');
     $('body').fadeIn();
 
 });
 
-function test(){
+function test() {
     alert('click bouton');
 }
 
-function start(){
+function start() {
     $('#start').fadeOut(); return false;
 }

@@ -152,3 +152,12 @@ nav a {
     color: #fff;
     font-size: 18px;
 }
+hr {
+
+    background-color: #000000;
+    color: #000000;
+    padding: 30px;
+    margin: 0;
+    border-radius: 5px;
+    border: none;
+}
