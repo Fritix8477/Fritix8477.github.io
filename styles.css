@@ -83,6 +83,21 @@
     align-items: center;
     font-family: fantasy;
 }
+.button-pacman {
+    background-color: #ffae00;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    font-family: fantasy;
+}
+.lien-pac-man {
+    display: block;
+    text-align: center;
+}
+
 
 .centrer button {
     width: 100%;
@@ -129,6 +144,8 @@
 nav {
     color: #fff;
     background-color: black;
+    border: none;
+    border-radius: 5px;
 }
 
 nav ul {
