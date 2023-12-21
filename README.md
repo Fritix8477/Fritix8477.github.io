@@ -30,4 +30,4 @@ git clone https://github.com/Fritix8477/Fritix8477.github.io.git
 ## Se connecter au site 
 
 Nom D'utilisateur : CollegeAdmin
-Mot de Passe : AdminProf
+Mot de Passe : AdminProf2023
