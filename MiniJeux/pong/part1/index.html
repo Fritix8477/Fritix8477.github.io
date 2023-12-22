@@ -13,7 +13,7 @@
     <h2>This is Pong!</h2>
 
     <ul class='parts'>
-      <li><a href='/'>Full Game</a></li>
+      <li><a href='../index.html'>Full Game</a></li>
       <li><a href='../part1/index.html' class='selected'><i>game runner</i> - Part 1</a></li>
       <li><a href='../part2/index.html'><i>bouncing ball</i> - Part 2</a></li>
       <li><a href='../part3/index.html'><i>game loop</i> - Part 3</a></li>
@@ -23,20 +23,25 @@
 
     <div class='description'>
       <p>
-        The Game.Runner provides a 60fps double buffered canvas game loop, allowing the Game itself to concentrate
-        on updating its game state whenever the <b>update()</b> method is called and rendering itself every
-        time the <b>draw()</b> method is called.
+        Le Game.Runner fournit une boucle de jeu en toile à double tampon de 60 ips, permettant au jeu lui-même de se concentrer
+        sur la mise à jour de son état de jeu chaque fois que le <b>update()</b> la méthode est appelée et se rend elle-même tous les
+        le temps <b>dessiner()</b> la méthode est appelée.
       </p>
       <p>
-        The Game.Runner is intended to be re-usable for any canvas based javascript game.
+        Le Game.Runner est destiné à être réutilisable pour tout jeu javascript basé sur un canevas..
       </p>
+
+      <a class="lien-pac-man" href="../../../index2.html" target="_self">
+        <button id="start" class="button-pacman">Clique ici pour revenir a l'Accueil</button>
+    </a>
+
     </div>
 
   </div>
 
   <canvas id="game">
     <div id="unsupported">
-      Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
+      Désolé, cet exemple ne peut pas être exécuté car votre navigateur ne prend pas en charge le &lt;canvas&gt; element
     </div>
   </canvas>
 

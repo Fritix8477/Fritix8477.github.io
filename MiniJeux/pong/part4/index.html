@@ -13,7 +13,7 @@
     <h2>This is Pong!</h2>
 
     <ul class='parts'>
-      <li><a href='/'>Full Game</a></li>
+      <li><a href='../index.html'>Full Game</a></li>
       <li><a href='../part1/index.html'><i>game runner</i> - Part 1</a></li>
       <li><a href='../part2/index.html'><i>bouncing ball</i> - Part 2</a></li>
       <li><a href='../part3/index.html'><i>game loop</i> - Part 3</a></li>
@@ -23,26 +23,31 @@
 
     <div class='description'>
       <p>
-        Adding collision detection makes the game playable for the first time.
-        There is no AI, but a 2 player game is now possible.
+        L'ajout de la détection de collision rend le jeu jouable pour la première fois.
+        Il n'y a pas d'IA, mais une partie à 2 joueurs est désormais possible.
       </p>
       <p>
-        Using naive collision detection, e.g:
+        Utiliser la détection naïve des collisions, e.g:
           <pre>  ball.x &lt; paddle.x</pre>
-        would work in a lot of cases but can lead to the ball overlapping the
-        paddle in some cases when the frame interval (dt) is large, or the ball 'just misses'.
+          fonctionnerait dans de nombreux cas, mais pourrait conduire à ce que la balle chevauche le
+          pagayer dans certains cas lorsque l'intervalle entre les images (dt) est grand ou que la balle « rate de peu ».
       </p>
       <p>
-        This is corrected using more complex, but realistic line intersection calculations.
+        
+Ceci est corrigé à l’aide d’un calculateur d’intersection de lignes plus complexe mais réaliste.
       </p>
       <p>
-        This allows for realistic behavior when the ball 'just misses' and instead
-        bounces off the top or bottom of the bat and out for a goal
+        Cela permet un comportement réaliste lorsque le ballon « rate de peu » et à la place
+        rebondit sur le haut ou le bas de la batte et marque un but
       </p>
       <p>
-        The implementation also detects movement of the paddle and
-        applies 'spin' to change the angle of the ball when appropriate
+        La mise en œuvre détecte également le mouvement de la palette et
+        applique un « spin » pour changer l'angle de la balle le cas échéant
       </p>
+
+      <a class="lien-pac-man" href="../../../index2.html" target="_self">
+        <button id="start" class="button-pacman">Clique ici pour revenir a l'Accueil</button>
+    </a>
 
     </div>
 
@@ -50,7 +55,7 @@
 
   <canvas id="game">
     <div id="unsupported">
-      Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
+      Désolé, cet exemple ne peut pas être exécuté car votre navigateur ne prend pas en charge le &lt;canvas&gt; element
     </div>
   </canvas>
 

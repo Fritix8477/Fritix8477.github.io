@@ -13,7 +13,7 @@
     <h2>This is Pong!</h2>
 
     <ul class='parts'>
-      <li><a href='/'>Full Game</a></li>
+      <li><a href='../index.html'>Full Game</a></li>
       <li><a href='../part1/index.html'><i>game runner</i> - Part 1</a></li>
       <li><a href='../part2/index.html'><i>bouncing ball</i> - Part 2</a></li>
       <li><a href='../part3/index.html'><i>game loop</i> - Part 3</a></li>
@@ -23,34 +23,39 @@
 
     <div class='description'>
       <p>
-        Adding a simple AI allows us to implement a single player game.
+        L'ajout d'une IA simple nous permet d'implémenter un jeu solo.
       </p>
       <p>
-        Press <b>1</b> for a single player game.<br>
-        Press <b>2</b> for a double player game.<br>
-        Press <b>0</b> to watch the computer play itself.
+        Press <b>1</b> pour une partie solo.<br>
+        Press <b>2</b> pour une partie duo.<br>
+        Press <b>0</b> pour regarder l'ordinateur jouer tout seul.
       </p>
       <p>
-        The AI consists of 2 components, a reaction time, and a prediction
-        error. The better the human player is, the faster the reaction time
-        and the lower the prediction error.
+        L'IA se compose de 2 composants, un temps de réaction et une prédiction
+        erreur. Plus le joueur humain est bon, plus le temps de réaction est rapide
+        et plus l'erreur de prédiction est faible.
       </p>
       <p>
-        The AI recalculates its prediction every so often (based on its reaction
-        time) and every time the ball changes direction when it bounces off a wall
+        L'IA recalcule sa prédiction de temps en temps (en fonction de sa réaction
+        fois) et à chaque fois que la balle change de direction lorsqu'elle rebondit sur un mur
       </p>
       <p>
-        Here, when you play against the computer you will see a <span style='color:red'>red</span>
-        box indicating the exact point the ball will intercept and a <span style='color:yellow'>yellow</span>
-        box indicating where the computer thinks it will be.
+        Ici, lorsque vous jouez contre l'ordinateur, vous verrez un <span style='color:red'>red</span>
+        case indiquant le point exact que la balle va intercepter et un <span style='color:yellow'>yellow</span>
+        boîte indiquant l'endroit où l'ordinateur pense qu'il se trouvera.
       </p> 
+
+      <a class="lien-pac-man" href="../../../index2.html" target="_self">
+        <button id="start" class="button-pacman">Clique ici pour revenir a l'Accueil</button>
+    </a>
+
     </div>
 
   </div>
 
   <canvas id="game">
     <div id="unsupported">
-      Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
+      Désolé, cet exemple ne peut pas être exécuté car votre navigateur ne prend pas en charge le &lt;canvas&gt; element
     </div>
   </canvas>
 

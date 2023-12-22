@@ -13,7 +13,7 @@
     <h2>This is Pong!</h2>
 
     <ul class='parts'>
-      <li><a href='/'>Full Game</a></li>
+      <li><a href='../index.html'>Full Game</a></li>
       <li><a href='../part1/index.html'><i>game runner</i> - Part 1</a></li>
       <li><a href='../part2/index.html'><i>bouncing ball</i> - Part 2</a></li>
       <li><a href='../part3/index.html' class='selected'><i>game loop</i> - Part 3</a></li>
@@ -23,35 +23,40 @@
 
     <div class='description'>
       <p>
-        The classic game loop starts with a menu, waits for a user to start the game, runs
-        the game until there is a winner, or the user abandons it, and then goes back to the menu.
+        La boucle de jeu classique commence par un menu, attend qu'un utilisateur démarre le jeu, s'exécute
+        le jeu jusqu'à ce qu'il y ait un gagnant, ou que l'utilisateur l'abandonne, puis retourne au menu.
       </p>
       <p>
-        Here we have hooked up keyboard events to allow the user to move the paddles up and
-        down, start a 1 or 2 player game, and abandon the game in progress.
+        Ici, nous avons connecté les événements du clavier pour permettre à l'utilisateur de déplacer les palettes vers le haut et
+        vers le bas, démarrez une partie à 1 ou 2 joueurs et abandonnez la partie en cours.
       </p>
       <p>
-        Press <b>1</b> for a single player game.<br>
-        Press <b>2</b> for a double player game.<br>
-        Press <b>0</b> to watch the computer play itself.
+        Press <b>1</b> pour une partie solo.<br>
+        Press <b>2</b> pour une partie duo.<br>
+        Press <b>0</b> pour regarder l'ordinateur jouer tout seul.
       </p>
       <p>
-        Player 1 moves using the <b>Q</b> and <b>A</b> keys.<br>
-        Player 2 moves using the <b>P</b> and <b>L</b> keys.
+        Le joueur 1 se déplace en utilisant les touches <b>Q</b> et <b>A</b> <br>
+        Le joueur 2 se déplace en utilisant les touches <b>P</b> et <b>L</b> 
       </p>
       <p>
-        <b>Esc</b> can be used to abandon a game.
+        <b>Esc</b> pour abandonner une partie.
       </p>
       <p>
-        <b>NOTE:</b> The paddles will be innefective until we implement collision detection in the next section. 
+        <b>NOTE:</b> Les palettes seront inefficaces jusqu'à ce que nous implémentions la détection de collision dans la section suivante. 
       </p>
+
+      <a class="lien-pac-man" href="../../../index2.html" target="_self">
+        <button id="start" class="button-pacman">Clique ici pour revenir a l'Accueil</button>
+    </a>
+
     </div>
 
   </div>
 
   <canvas id="game">
     <div id="unsupported">
-      Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element
+      Désolé, cet exemple ne peut pas être exécuté car votre navigateur ne prend pas en charge le &lt;canvas&gt; element
     </div>
   </canvas>
 
