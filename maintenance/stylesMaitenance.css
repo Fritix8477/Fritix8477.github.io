@@ -3,7 +3,7 @@ body {
     color: #616161
         /*#757575*/
     ;
-    background-color: #eeeeee;
+    background-color: #000000;
 }
 
 .container {
@@ -131,4 +131,8 @@ a {
 .spin-two {
     -webkit-animation: spin-two 2s infinite linear;
     animation: spin-two 2s infinite linear;
+}
+
+.style {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }

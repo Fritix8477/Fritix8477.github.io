@@ -6,10 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-function test() {
-    alert('click bouton');
-}
-
 function start() {
     $('#start').fadeOut(); return false;
 }

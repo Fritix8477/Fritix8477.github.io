@@ -1,4 +1,4 @@
-var min = 1440, sec = 0, dse = 0;
+var min = 60, sec = 0, dse = 0;
 var tmp = (min * 60 + sec) * 10 + dse;
 
 var chrono = setInterval(function () {
