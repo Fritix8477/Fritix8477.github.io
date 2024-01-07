@@ -166,3 +166,7 @@ html {
     }
   }
   
+  .info {
+    color: #ffffff9e;
+    font-family: monospace;
+  }
