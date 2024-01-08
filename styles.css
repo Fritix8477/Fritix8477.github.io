@@ -36,6 +36,10 @@
     cursor: pointer;
 }
 
+.style-stage {
+    background-color: #ff0000;
+}
+
 .button {
     background-color: #8800ff;
     color: #ffffff;
