@@ -13,7 +13,7 @@ anime({
 setTimeout(function(){
   $('body').fadeOut(500);
   setTimeout(function(){
-    window.location = '../rapport/details_3.html'
+    window.location = '../index.html'
   },500)
   
 }, 2000)
